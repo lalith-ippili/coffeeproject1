@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.total {
+    background-color: black;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    color: #ffffff;
+    font-family: Roboto;
+    padding: 1.2rem 0px 0px 0px;
+
+}
+
+.Navbar-headings {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.Navbar-headings h1 {
+    padding: 0px 0px 0px 2rem;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.Navbar-logo h1 {
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.Section_1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 130px 0px 00px 0px;
+}
+
+.Section_1 img {
+    height: 500px;
+
+    padding: 60px 0px 60px 0px;
+}
+
+
+
+button {
+    outline: none;
+    border: none;
+    font-weight: 400;
+    background-color: #ffbf80;
+    height: 36px;
+    width: 140px;
+    padding: 10px 30px 10px 30px;
+}
+
+.Section_ {
+    display: flex;
+
+}
+
+.Section_2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    /* background-color: black; */
+    color: #ffffff;
+    padding: 6.25rem;
+
+}
+
+.Section_2_content_div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 3.75rem;
+}
+
+.Section_2_content_div p {
+    font-size: 18px;
+    font-family: Roboto;
+    padding-bottom: 20px;
+    font-weight: 600;
+
+}
+
+.Section_2_content_div h1 {
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+
+}
+
+.Section_2_image_div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+
+}
+
+.Section_2 img {
+    height: 26.25rem;
+    width: 26.25rem;
+}
+
+.Section_3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    color: #ffffff;
+
+}
+
+.Section_3_head_div h1 {
+    font-size: 60px;
+    padding: 10px 0px 11.87rem 5rem;
+}
+
+.Section_3_cards_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Section_3_card_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffbf80;
+    padding: 70px 100px 40px 100px;
+    font-family: Roboto;
+    border-radius: 10px;
+}
+
+.Section_3_card_div h2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 0px 55px 0px;
+}
+
+.Section_3_card_div p {
+    padding: 0px 0px 25px 0px;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.Section_3_cards_para {
+    display: flex;
+    flex-direction: column;
+}
+
+#Steamed_Milk {
+    padding-bottom: 70px;
+
+}
+
+#p {
+    font-size: 70px;
+}
+
+.hr {
+    background-color: #ffb366;
+    color: #ffb366;
+    height: 2px;
+    width: 35%;
+
+
+}
+
+.hrdiv {
+    display: flex;
+    justify-content: center;
+    padding: 3.75rem 3.75rem 1rem 3.75rem;
+    background-color: black;
+}
+
+.Section_4 {
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 6rem 1.8rem 1.8rem 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+
+.Section_4_about_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.Section_4_about_div p {
+    font-size: 17px;
+    text-align: center;
+    font-family: Roboto;
+    padding-top: 18px;
+
+}
+
+.sp {
+    color: #ffbf80;
+}
+
+.h {
+    padding-left: 5px;
+}
+
+.lastSection {
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+    color: #ffffff;
+}
+
+.last {
+    /* background-color: black; */
+    color: #ffffff;
+}
+
+.last {
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+    padding-bottom: 5px;
+    color: #ffffff;
+}
